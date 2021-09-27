@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5371A411-6A96-4AF3-B27C-776EE1D9554F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lizinq_Muqavile</RootNamespace>
+    <AssemblyName>Lizinq Muqavile</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://yarat.info/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Iconca.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Lizinq_Muqavile.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0EB2BFD902FD67D5E80AC4858C37799BD909A3DF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AGLizinq_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AxInterop.WMPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Core, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.Microsoft.Office.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Office, Version=2.1.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.VBIDE, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.VBIDE.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.WMPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Word, Version=8.1.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.Designer.cs">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BNAadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BNAadd.Designer.cs">
+      <DependentUpon>BNAadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Haqqinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Haqqinda.designer.cs">
+      <DependentUpon>Haqqinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nsoft\MyChange.cs" />
+    <Compile Include="Isciler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Isciler.Designer.cs">
+      <DependentUpon>Isciler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisenziya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisenziya.Designer.cs">
+      <DependentUpon>Lisenziya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mektublar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mektublar.Designer.cs">
+      <DependentUpon>Mektublar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MMXmelumat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MMXmelumat.Designer.cs">
+      <DependentUpon>MMXmelumat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nsoft\MyCheck.cs" />
+    <Compile Include="Nsoft\MyData.cs" />
+    <Compile Include="Qəbz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qəbz.Designer.cs">
+      <DependentUpon>Qəbz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YeniParol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YeniParol.Designer.cs">
+      <DependentUpon>YeniParol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parol.Designer.cs">
+      <DependentUpon>Parol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qayi.Designer.cs">
+      <DependentUpon>Qayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qrafik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qrafik.Designer.cs">
+      <DependentUpon>Qrafik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hava.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hava.Designer.cs">
+      <DependentUpon>Hava.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Bildiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bildiris.Designer.cs">
+      <DependentUpon>Bildiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Elaqe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Elaqe.Designer.cs">
+      <DependentUpon>Elaqe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EtibarnameEsas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EtibarnameEsas.Designer.cs">
+      <DependentUpon>EtibarnameEsas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainLogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainLogo.Designer.cs">
+      <DependentUpon>MainLogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mezenne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mezenne.designer.cs">
+      <DependentUpon>Mezenne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LizinqCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LizinqCalculator.Designer.cs">
+      <DependentUpon>LizinqCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail.Designer.cs">
+      <DependentUpon>Mail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiaGovAz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiaGovAz.Designer.cs">
+      <DependentUpon>MiaGovAz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MMX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MMX.Designer.cs">
+      <DependentUpon>MMX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mulkiyyete Verme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mulkiyyete Verme.Designer.cs">
+      <DependentUpon>Mulkiyyete Verme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN.Designer.cs">
+      <DependentUpon>MAIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kassa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kassa.Designer.cs">
+      <DependentUpon>Kassa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Odenisler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Odenisler.Designer.cs">
+      <DependentUpon>Odenisler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ohdelik Verilmesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ohdelik Verilmesi.Designer.cs">
+      <DependentUpon>Ohdelik Verilmesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plateshka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plateshka.Designer.cs">
+      <DependentUpon>Plateshka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Portfel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Portfel.Designer.cs">
+      <DependentUpon>Portfel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DYP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DYP.Designer.cs">
+      <DependentUpon>DYP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emeliyyatlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emeliyyatlar.Designer.cs">
+      <DependentUpon>Emeliyyatlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qeydler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qeydler.Designer.cs">
+      <DependentUpon>Qeydler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rekvizitler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rekvizitler.Designer.cs">
+      <DependentUpon>Rekvizitler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sekiller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sekiller.Designer.cs">
+      <DependentUpon>Sekiller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tehvil-Teslim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tehvil-Teslim.Designer.cs">
+      <DependentUpon>Tehvil-Teslim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TehvilTeslim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehvilTeslim.Designer.cs">
+      <DependentUpon>TehvilTeslim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telefon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telefon.Designer.cs">
+      <DependentUpon>Telefon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yeni Muqavile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yeni Muqavile.Designer.cs">
+      <DependentUpon>Yeni Muqavile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İcbari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İcbari.Designer.cs">
+      <DependentUpon>İcbari.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminPanel.resx">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bildiris.resx">
+      <DependentUpon>Bildiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BNAadd.resx">
+      <DependentUpon>BNAadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Elaqe.resx">
+      <DependentUpon>Elaqe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtibarnameEsas.resx">
+      <DependentUpon>EtibarnameEsas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Haqqinda.resx">
+      <DependentUpon>Haqqinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Isciler.resx">
+      <DependentUpon>Isciler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisenziya.resx">
+      <DependentUpon>Lisenziya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mektublar.resx">
+      <DependentUpon>Mektublar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMXmelumat.resx">
+      <DependentUpon>MMXmelumat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qəbz.resx">
+      <DependentUpon>Qəbz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YeniParol.resx">
+      <DependentUpon>YeniParol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parol.resx">
+      <DependentUpon>Parol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qayi.resx">
+      <DependentUpon>Qayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qrafik.resx">
+      <DependentUpon>Qrafik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hava.resx">
+      <DependentUpon>Hava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainLogo.resx">
+      <DependentUpon>MainLogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mezenne.resx">
+      <DependentUpon>Mezenne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LizinqCalculator.resx">
+      <DependentUpon>LizinqCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail.resx">
+      <DependentUpon>Mail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiaGovAz.resx">
+      <DependentUpon>MiaGovAz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMX.resx">
+      <DependentUpon>MMX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mulkiyyete Verme.resx">
+      <DependentUpon>Mulkiyyete Verme.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN.resx">
+      <DependentUpon>MAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kassa.resx">
+      <DependentUpon>Kassa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Odenisler.resx">
+      <DependentUpon>Odenisler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ohdelik Verilmesi.resx">
+      <DependentUpon>Ohdelik Verilmesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plateshka.resx">
+      <DependentUpon>Plateshka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Portfel.resx">
+      <DependentUpon>Portfel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DYP.resx">
+      <DependentUpon>DYP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emeliyyatlar.resx">
+      <DependentUpon>Emeliyyatlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qeydler.resx">
+      <DependentUpon>Qeydler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rekvizitler.resx">
+      <DependentUpon>Rekvizitler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sekiller.resx">
+      <DependentUpon>Sekiller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tehvil-Teslim.resx">
+      <DependentUpon>Tehvil-Teslim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehvilTeslim.resx">
+      <DependentUpon>TehvilTeslim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telefon.resx">
+      <DependentUpon>Telefon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yeni Muqavile.resx">
+      <DependentUpon>Yeni Muqavile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İcbari.resx">
+      <DependentUpon>İcbari.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\Admin.png" />
+    <None Include="Resources\password.png" />
+    <None Include="Resources\info.jpg" />
+    <None Include="Resources\Nokia Orta.png" />
+    <None Include="bin\Debug\Images\AGBank 03.12.09.jpg" />
+    <None Include="bin\Debug\Images\mezenne.jpg" />
+    <None Include="bin\Debug\Images\MMX.jpg" />
+    <None Include="bin\Debug\Images\Mulkiyyete verme.png" />
+    <None Include="bin\Debug\Images\muqavile.jpg" />
+    <None Include="bin\Debug\Images\musiqi.jpg" />
+    <None Include="bin\Debug\Images\Nuvola_devices_print_printer.png" />
+    <None Include="bin\Debug\Images\odenis tapsirigi.jpg" />
+    <None Include="bin\Debug\Images\odenis.jpg" />
+    <None Include="bin\Debug\Images\ohdelik.jpg" />
+    <None Include="bin\Debug\Images\Portfel.jpg" />
+    <None Include="bin\Debug\Images\Qebz.jpg" />
+    <None Include="bin\Debug\Images\qeyd.jpg" />
+    <None Include="bin\Debug\Images\RZNA.jpg" />
+    <None Include="bin\Debug\Images\Save.jpg" />
+    <None Include="bin\Debug\Images\setting.jpg" />
+    <None Include="bin\Debug\Images\Telefon.png" />
+    <None Include="bin\Debug\Images\word.png" />
+    <None Include="bin\Debug\Images\1.jpg" />
+    <None Include="bin\Debug\Images\2.jpg" />
+    <None Include="bin\Debug\Images\3.jpg" />
+    <None Include="bin\Debug\Images\4.jpg" />
+    <None Include="bin\Debug\Images\5.jpg" />
+    <None Include="bin\Debug\Images\6.jpg" />
+    <None Include="bin\Debug\Images\backgroundImage.png" />
+    <None Include="bin\Debug\Images\backgroundImage2.jpg" />
+    <None Include="bin\Debug\Images\backgroundImage3.jpg" />
+    <None Include="bin\Debug\Images\calc.jpg" />
+    <None Include="bin\Debug\Images\Cerime.gif" />
+    <None Include="bin\Debug\Images\default.jpg" />
+    <None Include="bin\Debug\Images\DYP senedleri.jpg" />
+    <None Include="bin\Debug\Images\Əlaqə.jpg" />
+    <None Include="bin\Debug\Images\etibarname 123.png" />
+    <None Include="bin\Debug\Images\etibarname sekil1.gif" />
+    <None Include="bin\Debug\Images\excel.jpg" />
+    <None Include="bin\Debug\Images\Help1.png" />
+    <None Include="bin\Debug\Images\Help2.png" />
+    <None Include="bin\Debug\Images\Help3.png" />
+    <None Include="bin\Debug\Images\homme.jpg" />
+    <None Include="bin\Debug\Images\icbari.jpg" />
+    <None Include="bin\Debug\Images\kassa.jpg" />
+    <None Include="bin\Debug\Images\Iconca.ico" />
+    <None Include="bin\Debug\Images\TehvilTeslim.jpg" />
+    <None Include="bin\Debug\Images\Bildiris.jpg" />
+    <None Include="bin\Debug\Images\Ok.jpg" />
+    <None Include="bin\Debug\Images\Əlaqə2.jpg" />
+    <None Include="bin\Debug\Images\nokia206.jpg" />
+    <None Include="bin\Debug\Images\Nokia No.jpg" />
+    <None Include="bin\Debug\Images\Nokia Orta.png" />
+    <None Include="bin\Debug\Images\Update.png" />
+    <None Include="bin\Debug\Images\Tex Pass 1.jpg" />
+    <None Include="bin\Debug\Images\Tex Pass 2.jpg" />
+    <None Include="bin\Debug\Images\mektub.jpg" />
+    <None Include="bin\Debug\Images\exit.png" />
+    <None Include="bin\Debug\Images\Admin.png" />
+    <None Include="bin\Debug\Images\password.png" />
+    <Content Include="Iconca.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxSHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

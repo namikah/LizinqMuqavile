@@ -1,0 +1,186 @@
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.exe.config
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.exe.manifest
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.application
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.exe
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.pdb
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Interop.SHDocVw.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\AxInterop.SHDocVw.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Interop.SHDocVw.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AxInterop.SHDocVw.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.ResolveComReference.cache
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Bildiris.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.BNAadd.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Elaqe.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.EtibarnameEsas.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Isciler.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Lisenziya.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Mektublar.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MMXmelumat.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qayi.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qrafik.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Hava.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Help.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MainLogo.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\DollarKurs.Form1.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.LizinqCalculator.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Mail.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MiaGovAz.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MMX.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Mulkiyyete_Verme.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Muqavile.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Kassa.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Odenisler.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Ohdelik_Verilmesi.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Parol.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Plateshka.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Portfel.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Properties.Resources.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.DYP.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Emeliyyatlar.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qeydler.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qəbz.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Rekvizitler.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Sekiller.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Tehvil_Teslim.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.TehvilTeslim.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Telefon.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Yeni_Muqavile.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.İcbari.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.GenerateResource.cache
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.CoreCompileInputs.cache
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.exe.manifest
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.application
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.CopyComplete
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.exe
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.pdb
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.YeniParol.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.AdminPanel.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Interop.SHDocVw.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\AxInterop.SHDocVw.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.ResolveComReference.cache
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.AdminPanel.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Bildiris.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.BNAadd.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Elaqe.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.EtibarnameEsas.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Isciler.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Lisenziya.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Mektublar.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MMXmelumat.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qəbz.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.YeniParol.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Parol.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qayi.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qrafik.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Hava.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Help.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MainLogo.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\DollarKurs.Form1.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.LizinqCalculator.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Mail.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MiaGovAz.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MMX.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Mulkiyyete_Verme.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Muqavile.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Kassa.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Odenisler.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Ohdelik_Verilmesi.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Plateshka.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Portfel.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Properties.Resources.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.DYP.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Emeliyyatlar.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qeydler.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Rekvizitler.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Sekiller.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Tehvil_Teslim.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.TehvilTeslim.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Telefon.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Yeni_Muqavile.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.İcbari.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.GenerateResource.cache
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.CoreCompileInputs.cache
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.exe
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.pdb
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.exe.config
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.exe.manifest
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.application
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.exe
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.pdb
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\bin\Debug\Interop.SHDocVw.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\bin\Debug\AxInterop.SHDocVw.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.exe.manifest
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.application
+C:\Users\NAMIK\Desktop\Lizinq Muqavile — копия\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.CopyComplete
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Haqqinda.resources
+C:\Users\NAMIK\Desktop\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizinq.csprojAssemblyReference.cache
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.exe.config
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.exe.manifest
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.application
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.exe
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Lizinq Muqavile.pdb
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Interop.SHDocVw.dll
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\AxInterop.SHDocVw.dll
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Interop.SHDocVw.dll
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AxInterop.SHDocVw.dll
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.ResolveComReference.cache
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.AdminPanel.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Bildiris.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.BNAadd.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Elaqe.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.EtibarnameEsas.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Haqqinda.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Isciler.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Lisenziya.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Mektublar.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MMXmelumat.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qəbz.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.YeniParol.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Parol.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qayi.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qrafik.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Hava.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Help.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MainLogo.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\DollarKurs.Form1.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.LizinqCalculator.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Mail.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MiaGovAz.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.MMX.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Mulkiyyete_Verme.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Muqavile.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Kassa.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Odenisler.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Ohdelik_Verilmesi.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Plateshka.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Portfel.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Properties.Resources.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.DYP.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Emeliyyatlar.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Qeydler.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Rekvizitler.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Sekiller.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Tehvil_Teslim.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.TehvilTeslim.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Telefon.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.Yeni_Muqavile.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq_Muqavile.İcbari.resources
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.GenerateResource.cache
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.CoreCompileInputs.cache
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.exe.manifest
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.application
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.CopyComplete
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.exe
+C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.pdb
