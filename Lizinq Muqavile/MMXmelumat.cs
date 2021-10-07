@@ -1,22 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using Nsoft;
+using System;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
-using System.Data.OleDb;
-using System.Xml;
-using System.Globalization;
-using System.Net.Mail;
-using System.Net;
 using System.IO;
-using System.Net.Sockets;
-using System.Web;
-using System.Threading;
-using Microsoft.Office.Interop.Outlook;
-using Nsoft;
+using System.Net.Mail;
+using System.Windows.Forms;
 
 namespace Lizinq_Muqavile
 {
@@ -33,9 +20,6 @@ namespace Lizinq_Muqavile
 
         private void MMXMelumatNomre()
         {
-            
-            
-           
             MyData.selectCommand("baza.accdb", "Select * from MMXMelumatNomre");
             MyData.dtmainNomre= new DataTable();
             MyData.oledbadapter1.Fill(MyData.dtmainNomre);
@@ -44,19 +28,19 @@ namespace Lizinq_Muqavile
 
             try
             {
-                if (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) > 0 && Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) < 10) txtNomre.Text = "00000" + (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) + 1).ToString();
+                if (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) > 0 && Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) < 10) txtNomre.Text = $"00000{(Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) + 1).ToString()}";
 
 
-                if (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) > 9 && Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) < 100) txtNomre.Text = "0000" + (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) + 1).ToString();
+                if (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) > 9 && Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) < 100) txtNomre.Text = $"0000{(Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) + 1).ToString()}";
 
 
-                if (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) > 99 && Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) < 1000) txtNomre.Text = "000" + (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) + 1).ToString();
+                if (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) > 99 && Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) < 1000) txtNomre.Text = $"000{(Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) + 1).ToString()}";
 
 
-                if (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) > 999 && Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) < 10000) txtNomre.Text = "00" + (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) + 1).ToString();
+                if (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) > 999 && Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) < 10000) txtNomre.Text = $"00{(Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) + 1).ToString()}";
 
 
-                if (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) > 9999 && Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) < 100000) txtNomre.Text = "0" + (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) + 1).ToString();
+                if (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) > 9999 && Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) < 100000) txtNomre.Text = $"0{(Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) + 1).ToString()}";
 
 
                 if (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) > 99999 && Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) < 1000000) txtNomre.Text = (Convert.ToInt32(MyData.dtmainNomre.Rows[0][0]) + 1).ToString();
@@ -237,47 +221,9 @@ namespace Lizinq_Muqavile
             doc = word.Documents.Open(ref FileName);
             doc.Activate();
 
-
-            string a = "", b = "", c = "";
-
-            if (t4.Text.Substring(3, 2) == "01") a = "Yanvar";
-            if (t4.Text.Substring(3, 2) == "02") a = "Fevral";
-            if (t4.Text.Substring(3, 2) == "03") a = "Mart";
-            if (t4.Text.Substring(3, 2) == "04") a = "Aprel";
-            if (t4.Text.Substring(3, 2) == "05") a = "May";
-            if (t4.Text.Substring(3, 2) == "06") a = "İyun";
-            if (t4.Text.Substring(3, 2) == "07") a = "İyul";
-            if (t4.Text.Substring(3, 2) == "08") a = "Avqust";
-            if (t4.Text.Substring(3, 2) == "09") a = "Sentyabr";
-            if (t4.Text.Substring(3, 2) == "10") a = "Oktyabr";
-            if (t4.Text.Substring(3, 2) == "11") a = "Noyabr";
-            if (t4.Text.Substring(3, 2) == "12") a = "Dekabr";
-
-            if (t5.Text.Substring(3, 2) == "01") c = "Yanvar";
-            if (t5.Text.Substring(3, 2) == "02") c = "Fevral";
-            if (t5.Text.Substring(3, 2) == "03") c = "Mart";
-            if (t5.Text.Substring(3, 2) == "04") c = "Aprel";
-            if (t5.Text.Substring(3, 2) == "05") c = "May";
-            if (t5.Text.Substring(3, 2) == "06") c = "İyun";
-            if (t5.Text.Substring(3, 2) == "07") c = "İyul";
-            if (t5.Text.Substring(3, 2) == "08") c = "Avqust";
-            if (t5.Text.Substring(3, 2) == "09") c = "Sentyabr";
-            if (t5.Text.Substring(3, 2) == "10") c = "Oktyabr";
-            if (t5.Text.Substring(3, 2) == "11") c = "Noyabr";
-            if (t5.Text.Substring(3, 2) == "12") c = "Dekabr";
-
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "01") b = "Yanvar";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "02") b = "Fevral";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "03") b = "Mart";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "04") b = "Aprel";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "05") b = "May";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "06") b = "İyun";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "07") b = "İyul";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "08") b = "Avqust";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "09") b = "Sentyabr";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "10") b = "Oktyabr";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "11") b = "Noyabr";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "12") b = "Dekabr";
+            string a = MyChange.TarixSozle(Convert.ToDateTime(t4.Text));
+            string b = MyChange.TarixSozle(Convert.ToDateTime(t5.Text));
+            string c = MyChange.TarixSozle(DateTime.Today);
 
             MyChange.FindAndReplace(word, "000", txtNomre.Text);
             MyChange.FindAndReplace(word, "1111", "AZƏRBAYCAN RESPUBLİKASI DAXİLİ İŞLƏR NAZİRLİYİ" + Environment.NewLine + "BAKI ŞƏHƏRİ " + comboBox2.Text + " RAYON POLİS İDARƏSİNİN" + Environment.NewLine + "DÖVLƏT YOL POLİSİ ŞÖBƏSİNƏ");
@@ -321,47 +267,9 @@ namespace Lizinq_Muqavile
             doc = word.Documents.Open(ref FileName);
             doc.Activate();
 
-
-            string a = "", b = "", c = "";
-
-            if (t4.Text.Substring(3, 2) == "01") a = "Yanvar";
-            if (t4.Text.Substring(3, 2) == "02") a = "Fevral";
-            if (t4.Text.Substring(3, 2) == "03") a = "Mart";
-            if (t4.Text.Substring(3, 2) == "04") a = "Aprel";
-            if (t4.Text.Substring(3, 2) == "05") a = "May";
-            if (t4.Text.Substring(3, 2) == "06") a = "İyun";
-            if (t4.Text.Substring(3, 2) == "07") a = "İyul";
-            if (t4.Text.Substring(3, 2) == "08") a = "Avqust";
-            if (t4.Text.Substring(3, 2) == "09") a = "Sentyabr";
-            if (t4.Text.Substring(3, 2) == "10") a = "Oktyabr";
-            if (t4.Text.Substring(3, 2) == "11") a = "Noyabr";
-            if (t4.Text.Substring(3, 2) == "12") a = "Dekabr";
-
-            if (t5.Text.Substring(3, 2) == "01") c = "Yanvar";
-            if (t5.Text.Substring(3, 2) == "02") c = "Fevral";
-            if (t5.Text.Substring(3, 2) == "03") c = "Mart";
-            if (t5.Text.Substring(3, 2) == "04") c = "Aprel";
-            if (t5.Text.Substring(3, 2) == "05") c = "May";
-            if (t5.Text.Substring(3, 2) == "06") c = "İyun";
-            if (t5.Text.Substring(3, 2) == "07") c = "İyul";
-            if (t5.Text.Substring(3, 2) == "08") c = "Avqust";
-            if (t5.Text.Substring(3, 2) == "09") c = "Sentyabr";
-            if (t5.Text.Substring(3, 2) == "10") c = "Oktyabr";
-            if (t5.Text.Substring(3, 2) == "11") c = "Noyabr";
-            if (t5.Text.Substring(3, 2) == "12") c = "Dekabr";
-
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "01") b = "Yanvar";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "02") b = "Fevral";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "03") b = "Mart";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "04") b = "Aprel";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "05") b = "May";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "06") b = "İyun";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "07") b = "İyul";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "08") b = "Avqust";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "09") b = "Sentyabr";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "10") b = "Oktyabr";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "11") b = "Noyabr";
-            if (DateTime.Today.ToShortDateString().Substring(3, 2) == "12") b = "Dekabr";
+            string a = MyChange.TarixSozle(Convert.ToDateTime(t4.Text));
+            string b = MyChange.TarixSozle(Convert.ToDateTime(t5.Text));
+            string c = MyChange.TarixSozle(DateTime.Today);
 
             MyChange.FindAndReplace(word, "000", txtNomre.Text);
             MyChange.FindAndReplace(word, "1111", "AZƏRBAYCAN RESPUBLİKASI DAXİLİ İŞLƏR NAZİRLİYİ" + Environment.NewLine + "BAKI ŞƏHƏRİ " + comboBox2.Text + " RAYON POLİS İDARƏSİNİN" + Environment.NewLine + "DÖVLƏT YOL POLİSİ ŞÖBƏSİNƏ");
@@ -405,20 +313,7 @@ namespace Lizinq_Muqavile
             doc = word.Documents.Open(ref FileName);
             doc.Activate();
 
-            string a = "";
-
-            if (t4.Text.Substring(3, 2) == "01") a = "Yanvar";
-            if (t4.Text.Substring(3, 2) == "02") a = "Fevral";
-            if (t4.Text.Substring(3, 2) == "03") a = "Mart";
-            if (t4.Text.Substring(3, 2) == "04") a = "Aprel";
-            if (t4.Text.Substring(3, 2) == "05") a = "May";
-            if (t4.Text.Substring(3, 2) == "06") a = "İyun";
-            if (t4.Text.Substring(3, 2) == "07") a = "İyul";
-            if (t4.Text.Substring(3, 2) == "08") a = "Avqust";
-            if (t4.Text.Substring(3, 2) == "09") a = "Sentyabr";
-            if (t4.Text.Substring(3, 2) == "10") a = "Oktyabr";
-            if (t4.Text.Substring(3, 2) == "11") a = "Noyabr";
-            if (t4.Text.Substring(3, 2) == "12") a = "Dekabr";
+            string a = MyChange.TarixSozle(Convert.ToDateTime(t4.Text));
 
             MyChange.FindAndReplace(word, "000", txtNomre.Text);
             MyChange.FindAndReplace(word, "111", DateTime.Today.ToShortDateString().Substring(0, 2) + " " + a + " " + DateTime.Today.ToShortDateString().Substring(6, 4) + " - ci il");
@@ -454,20 +349,7 @@ namespace Lizinq_Muqavile
             doc = word.Documents.Open(ref FileName);
             doc.Activate();
 
-            string a = "";
-
-            if (t4.Text.Substring(3, 2) == "01") a = "Yanvar";
-            if (t4.Text.Substring(3, 2) == "02") a = "Fevral";
-            if (t4.Text.Substring(3, 2) == "03") a = "Mart";
-            if (t4.Text.Substring(3, 2) == "04") a = "Aprel";
-            if (t4.Text.Substring(3, 2) == "05") a = "May";
-            if (t4.Text.Substring(3, 2) == "06") a = "İyun";
-            if (t4.Text.Substring(3, 2) == "07") a = "İyul";
-            if (t4.Text.Substring(3, 2) == "08") a = "Avqust";
-            if (t4.Text.Substring(3, 2) == "09") a = "Sentyabr";
-            if (t4.Text.Substring(3, 2) == "10") a = "Oktyabr";
-            if (t4.Text.Substring(3, 2) == "11") a = "Noyabr";
-            if (t4.Text.Substring(3, 2) == "12") a = "Dekabr";
+            string a = MyChange.TarixSozle(Convert.ToDateTime(t4.Text));
 
             MyChange.FindAndReplace(word, "000", txtNomre.Text);
             MyChange.FindAndReplace(word, "111", DateTime.Today.ToShortDateString().Substring(0, 2) + " " + a + " " + DateTime.Today.ToShortDateString().Substring(6, 4) + " - ci il");
@@ -757,16 +639,16 @@ namespace Lizinq_Muqavile
         {
             MyData.insertCommand("baza.accdb", "INSERT INTO MMX (a1,a2,a3,a4,a5,a6,a7,a8,a9,a10)values("
 
-                                                                                                + "'" + t1.Text + "',"
-                                                                                                + "'" + t2.Text + "',"
-                                                                                                + "'" + t3.Text + "',"
-                                                                                                + "'" + t4.Text + "',"
-                                                                                                + "'" + t5.Text + "',"
-                                                                                                + "'" + t6.Text + "',"
-                                                                                                + "'" + txtsurucu.Text + "',"
-                                                                                                + "'" + t8.Text + "',"
-                                                                                                + "'" + t9.Text + "',"
-                                                                                                + "'" + t10.Text + "')");
+                                                                                                + $"'{ t1.Text}',"
+                                                                                                + $"'{t2.Text}',"
+                                                                                                + $"'{t3.Text}',"
+                                                                                                + $"'{t4.Text}',"
+                                                                                                + $"'{t5.Text}',"
+                                                                                                + $"'{t6.Text}',"
+                                                                                                + $"'{txtsurucu.Text}',"
+                                                                                                + $"'{t8.Text}',"
+                                                                                                + $"'{t9.Text}',"
+                                                                                                + $"'{t10.Text}')");
 
             SendMail();
 
@@ -789,13 +671,13 @@ namespace Lizinq_Muqavile
         {
             try
             {
-                Directory.CreateDirectory("X:\\Umumi Senedler\\MMX\\" + t2.Text + "\\"); File.Copy("MMX\\POCT DYP.xlsx", "X:\\Umumi Senedler\\MMX\\" + t2.Text + "\\POCT " + t2.Text + " (" + t5.Text + ").xlsx", true);
+                Directory.CreateDirectory("X:\\Umumi Senedler\\MMX\\" + t2.Text + "\\"); File.Copy("MMX\\POCT DYP.xlsx", $"X:\\Umumi Senedler\\MMX\\{t2.Text}\\POCT {t2.Text} ({t5.Text}).xlsx", true);
             }
             catch { }
 
             //Get a new workbook.
             oXL = new Excel.Application();
-            oWB = (Excel._Workbook)(oXL.Workbooks.Open("X:\\Umumi Senedler\\MMX\\" + t2.Text + "\\POCT " + t2.Text + " (" + t5.Text + ").xlsx"));
+            oWB = (Excel._Workbook)(oXL.Workbooks.Open($"X:\\Umumi Senedler\\MMX\\{t2.Text}\\POCT {t2.Text} ({t5.Text}).xlsx"));
             oSheet = (Excel._Worksheet)oWB.Sheets[1];
 
             oSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
@@ -803,7 +685,7 @@ namespace Lizinq_Muqavile
             oSheet.Cells[4, 3] = "İnzibati xəta törətmiş sürücülər barədə məlumatların verilməsi.";
             oSheet.Cells[5, 3] = txtunvan.Text;
 
-            if (txtunvan.Text == txtunvan.Text) oSheet.Cells[5, 3] = txtsurucu.Text + Environment.NewLine + "Ünvan: " + txtunvan.Text;
+            if (txtunvan.Text == txtunvan.Text) oSheet.Cells[5, 3] = $"{txtsurucu.Text}{Environment.NewLine}Ünvan: {txtunvan.Text}";
 
             oSheet.Cells[8, 3] = DateTime.Today.ToShortDateString();
             //  oSheet.PrintOut();
@@ -840,7 +722,7 @@ namespace Lizinq_Muqavile
             if (comboBox1.Text.Substring(comboBox1.Text.Length - 3, 3) == "ASC") MektubAGBank();
             else MektubAGLizinq();
 
-            MyData.updateCommand("baza.accdb", "UPDATE MMXMelumatNomre  SET a1 ='" + txtNomre.Text + "'");
+            MyData.updateCommand("baza.accdb", $"UPDATE MMXMelumatNomre  SET a1 ='{txtNomre.Text}'");
             MMXMelumatNomre();
         }
 
@@ -849,7 +731,7 @@ namespace Lizinq_Muqavile
             if (comboBox1.Text.Substring(comboBox1.Text.Length - 3, 3) == "ASC") BildirisAGBank();
             else BildirisAGLizinq();
 
-            MyData.updateCommand("baza.accdb", "UPDATE MMXMelumatNomre  SET a1 ='" + txtNomre.Text + "'");
+            MyData.updateCommand("baza.accdb", $"UPDATE MMXMelumatNomre  SET a1 ='{txtNomre.Text}'");
             MMXMelumatNomre();
         }
 

@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Q4cuVplmFeuoRF1eJAnJdIHh+qKX94ps+cET6zk7Y30=</dsig:DigestValue>
+        <dsig:DigestValue>i1oXUf8tnFyz/bjRoPEsp59bbcpU6T4yB7s1Z+uR/70=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YtHCpsffNZ0MGe+CbUoxIwGwKGXRyvkBC9busaTsM84=</dsig:DigestValue>
+        <dsig:DigestValue>PmNmzZtNuh3Ok4ftzPge2i4gSdkXVrviP20edVgaZHQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,7 +86,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+Te2/n0a7O4lq0pAeTLq/jdvUTW/pXynAJrwT+RfuU4=</dsig:DigestValue>
+        <dsig:DigestValue>0dqE3L1xVk6zGv2v+OxwFGC546t/XZuMGO1SmfgqRdI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -98,7 +98,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+TfPeA+VjZd8rpVxOM87D0r9q0CjndPizWYvCQuEVmI=</dsig:DigestValue>
+        <dsig:DigestValue>aZ2Mrvm/rpUnxdo1+eE/HQ2iT+/JILjvyVoki0MCs1Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -115,14 +115,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lizinq Muqavile.exe" size="15493568">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lizinq Muqavile.exe" size="15489472">
       <assemblyIdentity name="Lizinq Muqavile" version="2.0.1.4" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7atavdCZDGte7NDSgQdQ+28mXtEdQ/hbH4Cq/oSrNGk=</dsig:DigestValue>
+        <dsig:DigestValue>Ip/Pphsgat+Ba+aExArz6TFd2JcNKmm9bIaK4Ayu+B8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

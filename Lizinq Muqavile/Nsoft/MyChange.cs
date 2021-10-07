@@ -112,7 +112,6 @@ namespace Nsoft
                 case 11: result = "Noyabr"; break;
                 case 12: result = "Dekabr"; break;
                 default: break;
-
             }
 
             return result;

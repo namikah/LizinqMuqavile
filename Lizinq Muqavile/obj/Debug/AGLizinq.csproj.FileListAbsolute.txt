@@ -181,6 +181,5 @@ C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizin
 C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.CoreCompileInputs.cache
 C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.exe.manifest
 C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.application
-C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\AGLizinq.csproj.CopyComplete
 C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.exe
 C:\Users\namikah\Desktop\Nsoft\Lizinq Muqavile\Lizinq Muqavile\obj\Debug\Lizinq Muqavile.pdb
